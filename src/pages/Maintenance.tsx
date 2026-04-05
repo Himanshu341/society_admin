@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { toast } from 'react-hot-toast';
-import { Plus, Pencil, Search, X, CheckCircle, Clock } from 'lucide-react';
+import { Plus, Search, X, CheckCircle, Clock } from 'lucide-react';
 import apiClient from '../services/apiClient';
 
 interface Maintenance {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { toast } from 'react-hot-toast';
-import { UserRound, Plus, Pencil, Trash2, X, Phone, Briefcase, Clock } from 'lucide-react';
+import {  Plus, Pencil, Trash2, X, Phone, Briefcase, Clock } from 'lucide-react';
 import apiClient from '../services/apiClient';
 
 interface Staff {

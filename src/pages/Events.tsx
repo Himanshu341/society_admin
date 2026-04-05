@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { toast } from 'react-hot-toast';
-import { Calendar, Plus, Pencil, Trash2, X, MapPin, Clock } from 'lucide-react';
+import {  Plus, Pencil, Trash2, X, MapPin, Clock } from 'lucide-react';
 import apiClient from '../services/apiClient';
 
 interface Event {
